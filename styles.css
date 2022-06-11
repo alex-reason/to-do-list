@@ -178,7 +178,6 @@ svg {
     border-top-color: transparent;
     border-left-color: transparent;
     border-radius: 0;
-    transform: translateY(-0.5rem);
 }
 
 .checkbox {
