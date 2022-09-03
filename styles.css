@@ -195,7 +195,7 @@ svg {
 .list-item input:checked~.checkbox {
     transform: rotate(40deg);
     width: 2rem;
-    margin-left: 1.3rem;
+    margin-left: 1.2rem;
     border-color: #BBDED6;
     border-top-color: transparent;
     border-left-color: transparent;
