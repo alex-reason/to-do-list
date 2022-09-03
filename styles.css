@@ -248,18 +248,24 @@ svg {
     }
     
     .list-item label {
-    display: block;
-    width: 3rem;
-    height: 3rem;
-    cursor: pointer;
+        display: block;
+        width: 3rem;
+        height: 3rem;
+        cursor: pointer;
     }
     
    .container-title {
-    height: 30vh;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+        height: 30vh;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
+    
+    .list-item input:checked~.checkbox {
+        transform: rotate(35deg);
+        margin-left: .5rem;
+        margin-tiop: .5rem;
+    }
 }
