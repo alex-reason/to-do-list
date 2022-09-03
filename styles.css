@@ -242,6 +242,7 @@ svg {
 }
 
 @media only screen and (max-width: 600px) {
+    
     #reset-button {
         width: 50%;
     }
@@ -251,5 +252,14 @@ svg {
     width: 3rem;
     height: 3rem;
     cursor: pointer;
-}
+    }
+    
+   .container-title {
+    height: 30vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
 }
