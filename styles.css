@@ -234,15 +234,22 @@ svg {
     align-self: center;
 }
 
-@media only screen and (max-width: 600px) {
-    #reset-button {
-        width: 50%;
-    }
-}
-
 #reset-button:hover {
     transform: translateY(0.1rem);
     color: #FFAAA5;
     border: 0.1rem solid #FFAAA5;
     background-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    #reset-button {
+        width: 50%;
+    }
+    
+    .list-item label {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
 }
